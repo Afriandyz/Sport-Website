@@ -22,7 +22,7 @@ const Navbar = () => {
     ]
 
   return (
-    <nav className="bg-white p-3 items-center justify-evenly hidden lg:flex">
+    <nav className="bg-white p-3 items-center justify-evenly hidden lg:flex z-10">
       <div className="font-birthstone text-4xl">Sport News</div>
       <div>
         <ul>

@@ -37,8 +37,8 @@ const MobilelNavbar = () => {
       {navOpen && (
         <div
           className={`absolute ${
-            navOpen ? `top-10/12` : `bottom-2.5`
-          } right-0 p-4 bg-white w-full -z-10`}
+            navOpen ? `top-15` : `bottom-2.5`
+          } right-0 p-4 bg-white w-full`}
         >
           <ul className="space-y-5 text-center">
             {navList.map((item, index) => {
